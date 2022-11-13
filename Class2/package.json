@@ -1,0 +1,23 @@
+{
+  "name": "class-2",
+  "version": "1.0.0",
+  "description": "This is my test JSON Package",
+  "main": "JsonCode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JSon",
+    "Node",
+    "Js",
+    "code"
+  ],
+  "author": "Muheet Ahmed Butt",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "color": "^4.2.3",
+    "colors": "^1.4.0",
+    "simple-node-logger": "^21.8.12"
+  }
+}

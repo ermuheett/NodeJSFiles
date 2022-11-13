@@ -1,0 +1,43 @@
+console.log("Welcome to Node JS")
+
+var intA = 30;
+var intB = 30;
+
+let intC = intA + intB;
+
+console.log("The sum is " + intC);
+
+
+//const intD = 30;
+
+var intD = 50;
+
+intD = intD + 20;
+
+console.log ("The Sum is " + intD);
+
+
+// Array Filtering
+
+let arrTest = [2, 3, 4, 5, 6, 45, 2, 3, 4];
+
+// Method 1
+
+arrTest.filter (( intItem) => {
+
+    console.log(intItem);
+  
+
+})
+
+// Method 2 
+
+var intarrRessult = arrTest.filter((intItem) => {
+
+    return (intItem >= 10);
+
+
+})
+
+console.warn (intarrRessult);
+
